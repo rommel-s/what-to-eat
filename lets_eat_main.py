@@ -1,6 +1,6 @@
 ################o que vamos comer hoje?#################
 import random
-import time
+from time import sleep
 print('='*45)
 print('Dúvidas do que comer? Pergunte pra mim!')
 print('='*45)
@@ -16,14 +16,14 @@ lista_completa = [op1, op2, op3, op4]
 gera = random.choice(lista_completa)
 print('='*45)
 #brinca com o usuário:
-time.sleep(2)
+sleep(2)
 print('Certo, agora vou pensar um pouquinho aqui...')
-time.sleep(2)
+sleep(2)
 print('Hummm....')
-time.sleep(5)
-print('Acho que voce deveria comer {}'.format(gera))
-time.sleep(3)
-print('É, realmente, melhor comer {} mesmo'.format(gera))
+sleep(5)
+print(f'Acho que voce deveria comer {gera}')
+sleep(3)
+print(f'É, realmente, melhor comer {gera} mesmo')
 print('Bom apetite!')
 
 
