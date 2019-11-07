@@ -8,4 +8,20 @@ def title(message):
 
 
 
+def line(x)
+	'''
+	Return a line with variable length
+	'''
+	print('-' * x)
+
+
+
+def double_line(x):
+    '''
+	Return a double line with variable length
+	'''
+	print('=' * x)
+    
+
+
 
