@@ -1,12 +1,13 @@
 ################o que vamos comer hoje?#################
 import random
 from time import sleep
-print('='*45)
-print('Dúvidas do que comer? Pergunte pra mim!')
-print('='*45)
+from external_modules import title
+
+
+title('Dúvidas do que comer? Pergunte pra mim!')
 
 #pergunta ao usuário o que ele quer comer
-op1 = input('Qual a primeira opção?\n: ')
+first_option = input('Qual a primeira opção?\n: ')
 op2 = input('E a segunda opção?\n: ')
 op3 = input('A terceira opção?\n: ')
 op4 = input('Agora a quarta opção\n: ')
