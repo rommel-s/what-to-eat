@@ -8,7 +8,7 @@ def title(message):
 
 
 
-def line(x)
+def line(x):
 	'''
 	Return a line with variable length
 	'''
