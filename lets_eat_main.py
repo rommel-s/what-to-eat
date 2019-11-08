@@ -1,4 +1,5 @@
 ################o que vamos comer hoje?#################
+
 import random
 from time import sleep
 import external_modules
@@ -20,7 +21,7 @@ lista_completa = [
                 ]
 
 generate = random.choice(lista_completa)
-print('='*45)
+external_modules.line(30)
 #brinca com o usuário:
 sleep(2)
 print('Certo, agora vou pensar um pouquinho aqui...')
