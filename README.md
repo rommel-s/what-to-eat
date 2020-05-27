@@ -6,7 +6,7 @@
 Foi desenvolvido porque precisávamos saber o que comeríamos, e
 como sempre tivemos dúvidas, usamos um algoritmo que decidisse por nós.
 
-Ele funciona com três input do usuário, com uma linguagem interativa
+Ele funciona com três inputs do usuário, com uma linguagem interativa
 e de fácil entendimento.
 
 
@@ -19,16 +19,8 @@ It works with three user input, with an interactive language.
 and easy to understand.
 
 ----------------------------------------------------------------------------
-> python
-
-- [ ] Put colors
-- [ ] Make the code cleaner
-- [ ] separate the modules
-- [ ] make an implementation to errors
-
 > JS
 
-- [ ] implemente more interactivity
-- [ ] make an html file to desktop
-- [ ] make something portable
-- [ ] make an implementation in an app
+- [ ] Criar a interface web
+- [ ] Criar a interface desktop com Electron
+- [ ] Implementar uma versão mobile simples com Ionic
