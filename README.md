@@ -1,7 +1,10 @@
 # O QUE VAMOS COMER HOJE?
 ## WHAT WILL EAT
 
-![use-img](https://user-images.githubusercontent.com/53845558/83195865-4f967d80-a111-11ea-91c3-4ee0751f4c15.png)
+<p align="center">
+<img width="70%" src="https://imgur.com/OPFF9vZ" alt="O que comer"/>
+</p>
+
 
 > [PT/BR]
 
