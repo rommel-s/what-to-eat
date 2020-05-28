@@ -3,10 +3,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
   margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#app-title{
+  font-size:20px;
+  font-weight: 700;
 }
 
 input {
@@ -14,9 +21,17 @@ input {
   width: 200px;
   font-size: 22px;
   padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgba(137, 43, 226, 0.527);
 }
 
-button {
+input:hover {
+  box-shadow: 4px 8px 16px rgba(82, 83, 83, 0.14);
+
+}
+
+.button {
   background: linear-gradient(-30.5deg, #2193B0 4.04%, #6DD5ED 98.56%);
   border: none;
   border-radius: 30px;
@@ -24,6 +39,14 @@ button {
   width: 150px;
   height: 40px;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.button:hover {
+  
+  box-shadow: 4px 8px 16px rgba(10, 121, 212, 0.342);
 }
 
 #main-app {
@@ -33,6 +56,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 #header {
@@ -55,5 +79,13 @@ button {
 }
 
 #answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
   margin-top: 20px;
+  background-color: #ffffff;
+  height: 50px;
 }
