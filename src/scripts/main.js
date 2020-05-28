@@ -1,5 +1,6 @@
 const okBtn = document.querySelector('button')
 const outputAnswer = document.getElementById('answer')
+const reloadBtn = document.getElementById('reload')
 
 function getOptions() {
   let options = []
