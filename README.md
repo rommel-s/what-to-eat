@@ -1,6 +1,10 @@
 # O QUE VAMOS COMER HOJE?
 ## WHAT WILL EAT
 
+<p align="center">
+  <img width="70%" src="https://imgur.com/OPFF9vZ" alt="O que comer?"/>
+</p>
+
 > [PT/BR]
 
 Foi desenvolvido porque precisávamos saber o que comeríamos, e
@@ -21,6 +25,6 @@ and easy to understand.
 ----------------------------------------------------------------------------
 > JS
 
-- [ ] Criar a interface web
+- [x] Criar a interface web
 - [ ] Criar a interface desktop com Electron
-- [ ] Implementar uma versão mobile simples com Ionic
+
