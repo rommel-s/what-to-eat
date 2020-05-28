@@ -19,6 +19,12 @@ function getOptions() {
   userAnswer.appendChild(finalAnswer)
   outputAnswer.appendChild(userAnswer)
 
+  okBtn.setAttribute('disabled', 'disabled')
+
   return;
 
+}
+
+function reload() {
+  document.location.reload(true)
 }
