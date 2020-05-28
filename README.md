@@ -2,7 +2,7 @@
 ## WHAT WILL EAT
 
 <p align="center">
-<img width="70%" src="https://imgur.com/OPFF9vZ.png" alt="O que comer"/>
+<img width="40%" src="https://imgur.com/OPFF9vZ.png" alt="O que comer"/>
 </p>
 
 
