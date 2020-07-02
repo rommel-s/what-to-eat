@@ -9,18 +9,26 @@ function getOptions() {
   let secondOption = document.getElementById('op-02').value
   let thirdOption = document.getElementById('op-03').value
 
-  options.push(firstOption)
-  options.push(secondOption)
-  options.push(thirdOption)
+  if (firstOption == '' || secondOption == '' || thirdOption == '') {
 
-  let randomItem = Math.floor(Math.random() * 3)
+    alert('Favor, preencha todos os campos')
 
-  let userAnswer = document.createElement('h3')
-  let finalAnswer = document.createTextNode(options[randomItem])
-  userAnswer.appendChild(finalAnswer)
-  outputAnswer.appendChild(userAnswer)
+  } else {
 
-  okBtn.setAttribute('disabled', 'disabled')
+    options.push(firstOption)
+    options.push(secondOption)
+    options.push(thirdOption)
+  
+    let randomItem = Math.floor(Math.random() * 3)
+  
+    let userAnswer = document.createElement('h3')
+    let finalAnswer = document.createTextNode(options[randomItem])
+    userAnswer.appendChild(finalAnswer)
+    outputAnswer.appendChild(userAnswer)
+  
+    okBtn.setAttribute('disabled', 'disabled')
+
+  }
 
   return;
 
