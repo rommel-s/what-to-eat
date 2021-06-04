@@ -4,11 +4,11 @@
   "theme-color": "#FCE302",
   "background-color": "#FCE302",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "/index.html",
   "lang": "pt-BR",
   "icons": [
     {
-      "src": "/public/assets/icon_pizza_alone.png",
+      "src": "/public/assets/iconpwa-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
