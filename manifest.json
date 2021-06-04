@@ -1,0 +1,16 @@
+{
+  "name": "O que comer?",
+  "short_name": "O-que-comer?",
+  "theme-color": "#FCE302",
+  "background-color": "#FCE302",
+  "display": "standalone",
+  "start_url": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/public/assets/icon_pizza_alone.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
