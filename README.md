@@ -24,8 +24,5 @@ It works with three user input, with an interactive language.
 and easy to understand.
 
 ----------------------------------------------------------------------------
-> JS
 
-- [x] Criar a interface web
-- [ ] Criar a interface desktop com Electron
 
